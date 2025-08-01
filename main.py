@@ -4,7 +4,7 @@ from fastapi import FastAPI
 import uvicorn
 import os
 
-TOKEN = os.environ["8383278819:AAG9H3noSAgKNYXtcxp4vO0ZIRNTPvrnZFY"]
+TOKEN = os.environ["BOT_TOKEN"]
 
 app = FastAPI()
 
